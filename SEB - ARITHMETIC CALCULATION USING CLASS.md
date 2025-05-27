@@ -33,13 +33,35 @@ To write a Python program to perform addition and division operations using a cl
 ---
 
 ### PROGRAM
-
+REG NO : 212222220048
+NAME : SINGARAVETRIVEL S
 ```
-
+class saveetha:
+    def add(self,a,b):
+        return a+b
+    def div(self,a,b):
+        return a//b
+c=saveetha()
+a=int(input())
+b=int(input())
+choice=1
+while choice!=0:
+    choice=int(input())
+    if choice==1:
+       print("Result: ",c.add(a,b))
+    elif choice==2:
+       print("Result: ",c.div(a,b))
+    else:
+        print("Exiting!")
+        
+    
 
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/8761abc3-6a2a-4b68-83ea-d886560f262a)
+
 
 ### RESULT
+Thus the To write a Python program to perform addition and division operations using a class. The class should be named `Saveetha`, and the function names should be `setvalues` (to set `a` and `b` values), `add`, and `div` is successfully verified. 
